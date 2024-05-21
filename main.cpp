@@ -14,14 +14,14 @@ extern "C" int main(int argc, char *argv[]) {
         auto t1 = std::chrono::system_clock::now();
         while (SDL_PollEvent(&e)) {
             switch (e.type) {
-                case SDL_QUIT:
-                    quit = true;
-                    break;
-                case SDL_MOUSEBUTTONUP:
-                    if (e.button.button == SDL_BUTTON_LEFT) {
-                        rttt_sdl.click(e.button.x, e.button.y);
-                    }
-                    break;
+            case SDL_QUIT:
+                quit = true;
+                break;
+            case SDL_MOUSEBUTTONUP:
+                if (e.button.button == SDL_BUTTON_LEFT) {
+                    rttt_sdl.click(e.button.x, e.button.y);
+                }
+                break;
             }
         }
         rttt_sdl.render();

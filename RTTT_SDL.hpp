@@ -177,7 +177,7 @@ public:
             goto after_menu;
         }
         menu = false;
-        after_menu:
+    after_menu:
         if (scene == MENU_SCENE) {
             for (auto& i : buttons) {
                 if (x >= i.pos.x && x < i.pos.x + i.pos.w && y >= i.pos.y && y < i.pos.y + i.pos.w) {
