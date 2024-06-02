@@ -13,4 +13,4 @@ Or download the latest APK from the [Releases Section](https://github.com/Kirkez
 The code is based on [Kirkezz/TicTacToeNxNSFML](https://github.com/Kirkezz/TicTacToeNxNSFML) and contains many parts with code of questionable quality. I'll probably rewrite it when I have time.
 The game supports customization of the width and height of the playing field, the victory condition, and the number of players.
 
-![screenshot](metadata/en-US/images/screenshot2.png)
+![screenshot](metadata/en-US/images/phoneScreenshots/2.png)
