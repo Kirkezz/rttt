@@ -21,12 +21,9 @@ In version 1.3, the project has been refactored and is now based on SDL3 and [sd
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
      height="80">](https://f-droid.org/fr/packages/org.kirkezz.rttt/)
-
-<br>
 <a href="https://github.com/Kirkezz/rttt/releases/latest">
   <img width="220" alt="APK download" src="https://user-images.githubusercontent.com/114044633/223920025-83687de0-e463-4c5d-8122-e06e4bb7d40c.png">
 </a>
-<br/>
 
 The code is based on [Kirkezz/TicTacToeNxNSFML](https://github.com/Kirkezz/TicTacToeNxNSFML) and contains many parts with code of questionable quality. I will rewrite it when I have time. Multiplayer is planned.
 The game supports customization of the width and height of the playing field, the victory condition, and the number of players.
