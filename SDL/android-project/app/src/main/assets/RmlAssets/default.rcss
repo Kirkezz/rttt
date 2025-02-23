@@ -1,0 +1,26 @@
+body {
+    font-family: LatoLatin;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    position: relative;
+}
+
+button {
+    border-width: 0.05cm;
+    border-color: black;
+    background-color: #fa0000;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 12cm;
+    max-width: 80vw;
+    text-align: center;
+    font-size: 36px;
+    border-radius: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}

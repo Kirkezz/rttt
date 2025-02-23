@@ -1,2 +1,2 @@
 This app is a recursive version of the popular game Tic-Tac-Toe (also known as Xs and Os), based on the Ultimate Tic-Tac-Toe game.
-The game supports customization of the width and height of the playing field, the victory condition, and the number of players.
+The game supports customization of the playing field (width and height), the victory condition, the number of players, and player colors.

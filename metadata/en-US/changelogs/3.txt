@@ -1,0 +1,5 @@
+- Ported to SDL3.
+- Replaced the legacy custom GUI system with RmlUI.
+- Added customizable player colors.
+- Refactoring [is still needed].
+- Fixed various bugs.

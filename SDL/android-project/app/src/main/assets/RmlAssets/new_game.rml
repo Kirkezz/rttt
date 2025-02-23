@@ -1,0 +1,86 @@
+<rml>
+<head>
+    <title>New Game</title>
+    <link type="text/css" href="default.rcss" />
+    <style>
+        body {
+            font-size: 18pt;
+            align-items: center;
+            justify-content: center;
+            background-color: #ccc;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 127);
+            display: flex;
+            padding: 20px;
+            border-radius: 8px;
+            width: 10cm;
+            max-width: 80vw;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        input.range slidertrack {
+            width: 100%;
+            height: 10px;
+            background-color: #ddd;
+            border-radius: 2px;
+            margin: auto 0;
+        }
+
+        input.range sliderbar {
+            width: 30px;
+            height: 30px;
+            background-color: #007bff;
+            cursor: pointer;
+        }
+
+        input.submit {
+            font-family: LatoLatin;
+            background-color: #22af42;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 36pt;
+            margin-top: 0.5cm;
+        }
+    </style>
+</head>
+<body>
+    <button id="backToMenu" onclick="backToMenu" style="position: absolute; top: 0.05cm; left: 0.5cm; width: auto; background: gray;">🔙</button>
+        <form onsubmit="submitNewGame"> <!-- TODO: https://mikke89.github.io/RmlUiDoc/pages/data_bindings/examples.html -->
+            <div style="display: flex; flex-direction: row;">
+                <label>Width: </label>
+                <label id="width-value">3</label>
+            </div>
+            <input type="range" class="form_field" id="width" value="3" min="1" max="16"/><br/>
+
+            <div style="padding-top: 0.8cm; display: flex; flex-direction: row;">
+                <label>Height: </label>
+                <label id="height-value">3</label>
+            </div>
+            <input type="range" class="form_field" id="height" value="3" min="1" max="16"/><br/>
+
+            <div style="padding-top: 0.8cm; display: flex; flex-direction: row;">
+                <label>Win condition: </label>
+                <label id="win-condition-value">3</label>
+            </div>
+            <input type="range" class="form_field" id="win-condition" value="3" min="2" max="16"/><br/>
+
+            <div style="padding-top: 0.8cm; display: flex; flex-direction: row;">
+                <label>Number of players: </label>
+                <label id="number-of-players-value">2</label>
+            </div>
+            <input type="range" class="form_field" id="number-of-players" value="2" min="1" max="4"/><br/>
+
+            <input type="submit" value="Start Game">Start</input>
+        </form>
+</body>
+</rml>

@@ -1,0 +1,97 @@
+<rml>
+<head>
+    <title>Settings</title>
+    <link type="text/css" href="default.rcss" />
+    <style>
+        body {
+            background-color: #ccc;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 127);
+            display: flex;
+            padding: 20px;
+            border-radius: 8px;
+            width: 6cm;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input.submit {
+            font-family: LatoLatin;
+            background-color: #22af42;
+            color: white;
+            padding: 0.42cm 2.4cm;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.5cm;
+            margin-top: 0.5cm;
+        }
+
+        div.settings-container {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div.settings {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            align-items: center;
+        }
+
+        div.settings-row {
+            display: flex;
+            flex-direction: row;
+            width: 7cm;
+        }
+
+        div.settings-row input {
+            width: 3cm;
+            font-size: 18px;
+            border-width: 1px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body class="background">
+    <button id="backToMenu" onclick="backToMenu" style="position: absolute; top: 0.05cm; left: 0.5cm; width: auto; background: gray;">🔙</button>
+        <div class="settings-container">
+            <div class="settings">
+                <form onsubmit="saveSettings">
+                    <label style="font-size: 16pt;">Player 1</label>
+                    <div class="settings-row">
+                        <input type="text" class="form_field" id="player-1-r" value="0"/><br/>
+                        <input type="text" class="form_field" id="player-1-g" value="102"/><br/>
+                        <input type="text" class="form_field" id="player-1-b" value="204"/><br/>
+                    </div>
+                    <label style="font-size: 16pt;">Player 2</label>
+                    <div class="settings-row">
+                        <input type="text" class="form_field" id="player-2-r" value="220"/><br/>
+                        <input type="text" class="form_field" id="player-2-g" value="20"/><br/>
+                        <input type="text" class="form_field" id="player-2-b" value="60"/><br/>
+                    </div>
+                    <label style="font-size: 16pt;">Player 3</label>
+                    <div class="settings-row">
+                        <input type="text" class="form_field" id="player-3-r" value="138"/><br/>
+                        <input type="text" class="form_field" id="player-3-g" value="43"/><br/>
+                        <input type="text" class="form_field" id="player-3-b" value="226"/><br/>
+                    </div>
+                    <label style="font-size: 16pt;">Player 4</label>
+                    <div class="settings-row">
+                        <input type="text" class="form_field" id="player-4-r" value="0"/><br/>
+                        <input type="text" class="form_field" id="player-4-g" value="40"/><br/>
+                        <input type="text" class="form_field" id="player-4-b" value="80"/><br/>
+                    </div>
+                    <input type="submit" value="save">Save</input>
+                </form>
+            </div>
+        </div>
+</body>
+</rml>

@@ -1,0 +1,13 @@
+<rml>
+<head>
+    <title>Game</title>
+    <link type="text/css" href="default.rcss" />
+    <style>
+
+    </style>
+</head>
+
+<body class="background">
+    <button id="backToMenu" onclick="backToMenu" style="position: absolute; top: 0.05cm; left: 0.5cm; width: auto; background: gray;">🔙</button>
+</body>
+</rml>

@@ -1,0 +1,60 @@
+<rml>
+<head>
+    <title>Menu</title>
+    <link type="text/css" href="default.rcss" />
+    <style>
+        body {
+            background-color: #ccc;
+        }
+
+        div.menu-container {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div.menu {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            align-items: center;
+        }
+
+        div.menu-row {
+            display: flex;
+            flex-direction: row;
+            width: 7cm;
+        }
+
+        div.menu-row button {
+            width: 3cm;
+            font-size: 18px;
+            border-radius: 8px;
+        }
+        div.menu-row button#github {
+            background-color: #24292e;
+        }
+        div.menu-row button#donate {
+            background-color: #ff9800;
+        }
+    </style>
+</head>
+
+<body class="background">
+    <button id="exit" onclick="exit" style="position: absolute; top: 0.05cm; left: 0.5cm; width: auto; background: gray;">🔙</button>
+    <div class="menu-container">
+        <div class="menu">
+            <button id="play" onclick="play">Play</button>
+            <button id="options" onclick="settings">Settings</button>
+            <button id="help" onclick="help">How to Play</button>
+            <div class="menu-row">
+                <button id="github" onclick="github">GitHub</button>
+                <button id="donate" onclick="donate">Donate</button>
+            </div>
+        </div>
+    </div>
+</body>
+</rml>
