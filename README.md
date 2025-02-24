@@ -44,5 +44,6 @@ For Android, `cd SDL/android-project/' and run './gradlew assembleDebug'.
 
 ## Support the Development
 
-If you found this game interesting and would like to support the development of it or my other projects, you can make a donation: https://github.com/kirkezz/kirkezz
-To contact me, create an issue or find my contacts on my GitHub profile..
+If you found this game interesting and would like to support the development of it or my other projects, you can make a donation: https://github.com/Kirkezz/Kirkezz/blob/main/DONATEME.md
+
+To contact me, create an issue or find my contacts on my GitHub profile.
